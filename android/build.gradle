@@ -1,8 +1,7 @@
 buildscript {
     repositories {
         jcenter()
-        maven(){ url 'https://maven.aliyun.com/repository/releases' }
-        maven{ url "https://maven.aliyun.com/nexus/content/repositories/releases" }
+        maven(){ url 'https://maven.aliyun.com/nexus/content/repositories/jcenter' }
     }
 
     dependencies {
@@ -50,8 +49,7 @@ android {
 
 repositories {
     mavenCentral()
-    maven(){ url 'https://maven.aliyun.com/repository/releases' }
-    maven{ url "https://maven.aliyun.com/nexus/content/repositories/releases" }
+    maven(){ url 'https://maven.aliyun.com/nexus/content/repositories/jcenter' }
 }
 
 dependencies {
